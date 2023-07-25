@@ -1,10 +1,10 @@
-import React,{useState, useEffect, useCallback} from 'react';
-import InputText from '../../molecules/InputText';
+import React, { useCallback, useEffect, useState } from 'react';
+import BFPService from '../../../services/BFPService';
 import { Button } from '../../atoms';
 import CustomRadio from '../../molecules/CustomRadio';
+import InputText from '../../molecules/InputText';
 import InformationBar from '../../molecules/informationBar/InformationBar';
 import classCSS from './calculatorForm.module.css';
-import BFPService from '../../../services/BFPService';
 
 const CalculatorForm = () => {
 

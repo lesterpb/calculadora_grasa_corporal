@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 import TopMenu from './components/molecules/TopMenu';
 import CalculatorForm from './components/organisms/CalculatorForm/CalculatorForm';
-import './App.css';
 
 function App() {
   return (
-    <>       
+    <>
       <TopMenu companyName='Health Overview'/>
-      <div className="app-container">        
+      <div className="app-container">
         <CalculatorForm/>
       </div>
     </>

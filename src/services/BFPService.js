@@ -1,9 +1,9 @@
 import axiosClient from "../config/axiosClient";
 //{sexo,altura,cintura,cuello,cadera,peso}
-const BFPService = async ({sexo,altura,cintura,cuello,peso,cadera=0})=>{
+const BFPService = async ({sexo,altura,cintura,cuello,peso,cadera=92})=>{
+
     const url = `http://localhost:5057/Person/calculateBodyFatPercentege?sexo=${sexo}&altura=${altura}&cuello=${cuello}&cintura=${cintura}&cadera=${cadera}`;
-    console.log(url)
-    console.log("http://localhost:5057/Person/calculateBodyFatPercentege?sexo=hombre&altura=170&cuello=30&cintura=60&cadera=0")
+
     try {
         
         let response = await axiosClient.get(url);
@@ -23,7 +23,7 @@ const BFPService = async ({sexo,altura,cintura,cuello,peso,cadera=0})=>{
     //   return data;
     // })
     // .catch(error => {
-    //   
+    //
     //   console.error(error);
     // });
 }
