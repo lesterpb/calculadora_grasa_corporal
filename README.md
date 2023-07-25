@@ -1,5 +1,5 @@
 # calculadora_grasa_corporal
-Calculadora que se apoya en el método de la Marina de Estados Unidos (US Navy Method) para brindar un aproximado del porciento de tejido adiposo presente en una persona. Este proyecto consume el un backend realizado en ASP.NET 6 que se encuentra en: <a href='https://github.com/lesterpb/calculadora_grasa_corporal_back_api'>https://github.com/lesterpb/calculadora_grasa_corporal_back_api</a> 
+Calculadora que se apoya en el método de la Marina de Estados Unidos (US Navy Method) para brindar un aproximado del porciento de tejido adiposo presente en una persona. Este proyecto consume un backend realizado en ASP.NET 6 que se encuentra en: <a target="_blank" href='https://github.com/lesterpb/calculadora_grasa_corporal_back_api'>https://github.com/lesterpb/calculadora_grasa_corporal_back_api</a> 
 
 # Getting Started with Create React App
 
