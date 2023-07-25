@@ -8,7 +8,6 @@ const BFPService = async ({sexo,altura,cintura,cuello,peso,cadera=92})=>{
         
         let response = await axiosClient.get(url);
         response = await response.data;
-        console.log(response);
         return response;
 
       } catch (error) {
